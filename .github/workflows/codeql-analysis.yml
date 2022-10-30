@@ -1,8 +1,7 @@
-name: "CodeQL Scan"
+name: "CodeQL Scan v2"
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   analyze:
